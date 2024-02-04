@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  *,
+  *:before,
+  *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  :focus,
+  :active {
+    outline: none;
+  }
+  a:focus,
+  a:active {
+    outline: none;
+  }
+  nav,
+  footer,
+  header,
+  aside {
+    display: block;
+  }
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  input,
+  button,
+  textarea {
+    font-family: inherit;
+  }
+  input::-ms-clear {
+    display: none;
+  }
+  button {
+    cursor: pointer;
+  }
+  button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+  a,
+  a:visited {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  ul li {
+    list-style: none;
+  }
+  img {
+    vertical-align: top;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: inherit;
+    font-weight: 400;
+  }
+
+
+  .slider {
+position: relative;
+width: 700px;
+height: 200px;
+background-color: #2f9e44;
+margin: 100px auto;
+border-radius: 15px;
+padding-left: 86px;
+
+
+display: flex;
+align-items: center;
+gap: 86px;
+
+}
+.girl{
+height: 170px;
+transform: scale(1.5);
+border-radius: 8px;
+box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.545) ;
+}
+
+.info {
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.name {
+    padding-bottom: 5px;
+}
+
+.btn{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    border-radius:50% ;
+    box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.545) ;
+}
+
+.btn-right{
+  top: 50%;
+  right: 0;
+transform: translate(50%);
+
+}
+
+.btn-left{
+    top: 50%;
+    left: 0;
+    transform: translate(-50%);
+  
+  }
+.circles{
+    /* padding-top: 20px; */
+    position: absolute;
+    display: flex;
+    gap: 15px;
+    bottom:0;
+    left: 50%;
+     transform: translate(-50%,40px);
+}
+
+.circle{
+    width: 15px;
+    height: 15px;
+    border: 2px solid green;
+    border-radius: 50%;
+    background-color: aliceblue;
+  
+   
+}
+
+.active{
+    background-color: #2f9e44;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
